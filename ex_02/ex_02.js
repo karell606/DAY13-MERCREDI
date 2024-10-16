@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+
     fetch('http://localhost:3000/api/v1/todo')
         .then(response => response.json())
         .then(tasks => {
