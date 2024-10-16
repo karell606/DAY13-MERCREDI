@@ -1,4 +1,5 @@
 document.querySelector('.add-button').addEventListener('click', (event) => {
+
     event.preventDefault();
     const newTaskName = document.getElementById('results-textarea').value;
     if (!newTaskName) {
